@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusicDb.Entities", "MyMusicDb.Entities\MyMusicDb.Entities.csproj", "{678C4905-0211-4552-A50C-BF3B2F584E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMusicDb.Display", "MyMusicDb.Display\MyMusicDb.Display.csproj", "{D4627E3C-CB2C-40EF-A187-BA3813BA6A8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{678C4905-0211-4552-A50C-BF3B2F584E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{678C4905-0211-4552-A50C-BF3B2F584E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{678C4905-0211-4552-A50C-BF3B2F584E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4627E3C-CB2C-40EF-A187-BA3813BA6A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4627E3C-CB2C-40EF-A187-BA3813BA6A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4627E3C-CB2C-40EF-A187-BA3813BA6A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4627E3C-CB2C-40EF-A187-BA3813BA6A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

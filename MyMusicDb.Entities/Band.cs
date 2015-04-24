@@ -12,5 +12,7 @@ namespace MyMusicDb.Entities
         public List<Song> Songs { get; set; }
         public string Name { get; set; }
         public List<Musician> Members { get; set; }
+
+        public int ID { get; set; }
     }
 }

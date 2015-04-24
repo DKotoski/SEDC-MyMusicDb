@@ -8,6 +8,7 @@ namespace MyMusicDb.Entities
 {
     public class Song
     {
+        public int ID { get; set; }
         public IPerformer Performer { get; set; }
         public Album Album { get; set; }
         public string Title { get; set; }
